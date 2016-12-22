@@ -25,3 +25,13 @@
     background-color: rgba(60, 78, 217, 0.9);
     color: white;
 }
+
+nav {
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+nav ul>li {
+    display: inline-block;
+}

@@ -1,0 +1,278 @@
+/*全體字型設定*/
+
+p * {
+    font-family: serif, sans-serif, cursive, fantasy, monospace, 微軟正黑體, 新細明體字型;
+}
+
+
+/*導覽列設定*/
+
+.navbar {
+    margin: 0px;
+    background-color: ;
+    border-radius: 0px;
+    border-style: none;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+}
+
+
+/*導覽列置頂捲動設定*/
+
+body {
+    padding-top: 50px;
+}
+
+
+/*輪播圖片設定*/
+
+.item img {
+    width: 100%;
+    max-height: 630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+
+/*Section基本設定*/
+
+#section1 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #664222;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#section2 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #2B333E;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#section3 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #E59500;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#section4 {
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 500px;
+    color: #fff;
+    background-color: #D4CBBF;
+    text-align: center;
+    margin: -3px auto;
+    width: 100%;
+    background-size: cover;
+}
+
+#section51 {
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #f4b33b;
+    text-align: center;
+    margin: 0px auto;
+    background-size: cover;
+}
+
+#section52 {
+    padding-top: 30px;
+    height: 400px;
+    width: 100%;
+    color: #fff;
+    background-color: #443E2C;
+    text-align: center;
+    margin: 0px auto;
+    background-size: cover;
+}
+
+
+/*Section 1 設定*/
+
+#section1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+    border: 2px solid gray;
+}
+
+#section1 imgtitle {
+    text-align: center;
+    float: left;
+    font-size: 18px;
+}
+
+#section1 p {
+    text-align: center;
+    margin: 0px auto;
+    float: left;
+    font-size: 30px;
+    color: floralwhite;
+    padding: 5px;
+}
+
+
+/*Section 2 設定*/
+
+#section2 img {
+    width: 300px;
+    height: 150px;
+    border-radius: 2%;
+    display: block;
+    margin: 0px auto;
+    border: 2px solid gray;
+}
+
+#section2 p {
+    text-align: center;
+    margin: 0px auto;
+    font-size: 30px;
+    color: floralwhite;
+    line-height: 32px;
+}
+
+
+/*Section 3 設定*/
+
+#section3 img {
+    width: 300px;
+    height: 330px;
+    border-radius: 5%;
+    display: block;
+    margin: 0px auto;
+    border: 2px solid gray;
+    padding: 0;
+}
+
+#section3 .btn {
+    display: block;
+    background-color: #497396;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #2B455B;
+    border-radius: 5%;
+}
+
+
+/*Section 4 設定*/
+
+#section4 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+    border: 2px solid gray;
+}
+
+#section4 imgtitle {
+    text-align: center;
+    float: left;
+    font-size: 18px;
+}
+
+#section4 p {
+    text-align: center;
+    margin: 0px auto;
+    float: left;
+    font-size: 20px;
+    color: #727070;
+    padding: 5px;
+}
+
+#section4 a {
+    color: #497396;
+    margin: 0px auto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+/*Section 51 設定*/
+
+#section51 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    display: block;
+    margin: 0px auto;
+}
+
+#section51 imgtitle {
+    text-align: center;
+    float: left;
+    font-size: 25px;
+}
+
+#section51 imgtitle:link {
+    display: block;
+    color: #664222;
+    margin: 0px auto;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+#section51 imgtitle:visited {
+    display: block;
+    color: white;
+    margin: 0px auto;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+#section51 imgtitle:active {
+    text-decoration-line: underline;
+    color: white;
+    margin: 0px auto;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+#section51 imgtitle:hover {
+    color: darkgray;
+    margin: 0px auto;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+#section51 p {
+    text-align: center;
+    float: left;
+    font-size: 30px;
+    color: floralwhite;
+    padding: 5px;
+}
+
+
+/*Section 52 設定*/
+
+#section52 p {
+    text-align: center;
+    margin: 0px auto;
+    float: left;
+    font-size: 20px;
+    color: #727070;
+    padding: 5px;
+}

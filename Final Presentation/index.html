@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>私は鉄男です 居酒屋</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://morganhsieh.github.io/css/basic.css">
+    <link rel="stylesheet" href="https://morganhsieh.github.io/css/grid.css">
+    <link rel="stylesheet" href="https://morganhsieh.github.io/css/thumbnail.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--必要設定：data-target:指向要監聽的導覽列-->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+    <!--輪播開始-->
+    <div id="slideshow" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <!--輪播圖片或內容-->
+            <div class="item active"><img src="image\0.jpg" alt=""></div>
+            <div class="item"><img src="image\3.jpg" alt=""></div>
+            <div class="item"><img src="image\2.jpg" alt=""></div>
+            <div class="item"><img src="image\1.jpg" alt=""></div>
+        </div>
+        <!--上一頁 下一頁 按鈕-->
+        <div class="control-btn">
+            <a href="#slideshow" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a href="#slideshow" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right" ></span></a>
+        </div>
+        <!--小圓點換頁-->
+        <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+            <li data-target="#slideshow" data-slide-to="3"></li>
+        </ol>
+    </div>
+    <!--輪播結尾-->
+
+    <!--導覽列類別名稱要與data-target中一致-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">私は鉄男です 居酒屋</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <!--超連結連結到下面的段落ＩＤ-->
+                        <li><a href="#section1">About us</a></li>
+                        <li><a href="#section2">Brand story</a></li>
+                        <li><a href="#section3">Menu</a></li>
+                        <li><a href="#section4">Customer comments</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact us <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#section51">Social Community</a></li>
+                                <li><a href="#section52">Book a Reservation</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Section1開始-->
+    <div id="section1" class="container-fluid">
+        <h1>About us</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="image\5.jpg" width="190" height="200" alt="">
+                    <div class="imgtitle">帥氣老闆 光頭哥</div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="image\6.jpg" alt="">
+                    <div class="imgtitle">帥氣大廚 Jason Lu</div>
+
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <img src="image\7.jpg" alt="">
+                    <div class="imgtitle">甜心外場 郝吉利</div>
+                </div>
+            </div>
+
+        </div>
+
+        <p>於王品集團從事近15年的三位志同道合，做膩SOP版的料理，認為料理可以更貼近人心，撫慰繁忙一天的客人，為一圓創業夢，三位披上戰袍，獨立出來開店啦!</p>
+    </div>
+    <!--Section1結束-->
+    <!--Section2開始-->
+    <div id="section2" class="container-fluid">
+        <h1>Brand story</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <img src="image\13.jpg" alt="">
+
+                </div>
+            </div>
+
+        </div>
+
+        <p>近幾年，於王品集團中服務不下千種客人，來來去去，形形色色，一直思考著，除了尊貴的服務，成千上套的SOP，如何讓簡單的新鮮食材，料理理出美味且新鮮?這裡除了提供舒適環境，讓客人來到店裡是安心，酒酣耳後，還可以記得食物的美味與同時在這發展的美味關係。來吧!下班後的時光，讓鉄男食事處拍拍你的心拍拍你的胃!</p>
+
+    </div>
+
+    <!--Section2結束-->
+
+    <!--Section3開始-->
+    <div id="section3" class="container-fluid">
+        <h1>Menu</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src="image\11.jpg" width="190" height="200" alt="">
+
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src="image\12.jpg" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <!--按鈕群組開始-->
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn">下酒菜</button>
+                        <button type="button" class="btn">飲品</button>
+                    </div>
+                    <!--按鈕群組結尾-->
+
+
+                </div>
+
+            </div>
+            <!--Section3結束-->
+
+            <!--Section4開始-->
+            <div id="section4" class="container-fluid">
+                <h1>Customer comments</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <img src="https://source.unsplash.com/200x200?female head" alt="">
+                            <div class="imgtitle">Judy Lou</div>
+                            <p>女兒今晚在此替老爸慶生，深夜食堂氣氛佳食物優，老闆師傅待客親切，南崁能有一家這麼好的居酒屋，爾後三五好友聚餐可邀約來此...<a href="https://www.facebook.com/pg/theironmanchef/reviews/">觀看更多...</a></p>
+
+
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <img src="https://source.unsplash.com/200x200?male head" alt="">
+                            <div class="imgtitle">林忠興</div>
+                            <p>食材到位 料理手法講究 現點現做...<a href="https://www.facebook.com/pg/theironmanchef/reviews/">觀看更多...</a></p>
+
+
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <img src="https://source.unsplash.com/200x200?girl's head" alt="">
+                            <div class="imgtitle">Emily Tai</div>
+                            <p>老公突然想吃宵夜 又看到店門口有可愛的狗狗 於是我們就去外帶了 點了黑咖哩烏龍麵回家吃 哇～～～真是太好吃了 下次聚餐地點...
+                                <a href="https://www.facebook.com/pg/theironmanchef/reviews/">觀看更多...</a></p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--Section4結束-->
+
+            <!----section51開始---->
+            <div id="section51" class="container-fluid">
+                <h1>Social Community</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <img src="image\9.png" width="190" height="200" alt="">
+                            <div class="imgtitle">
+                                <a href="https://www.facebook.com/theironmanchef/">Facebook</a></div>
+
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <img src="image\10.png" alt="">
+                            <div class="imgtitle">
+                                <a href="https://www.facebook.com/theironmanchef/">Instagram</a>
+                            </div>
+
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <img src="image\8.png" alt="">
+                            <div class="imgtitle">
+                                <a href="https://www.facebook.com/theironmanchef/">Line</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!----section51結束---->
+                <!----section52開始---->
+                <div id="section52" class="container-fluid">
+                    <h1>Book a Reservation</h1>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.6343473510365!2d121.29499961459116!3d25.046480183966562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a07800ddde83%3A0x7b79a8d4c9f8668!2zMzMz5qGD5ZyS5biC6b6c5bGx5Y2A5Y2X576O6KGXMzjomZ8!5e0!3m2!1szh-TW!2stw!4v1482464416585" width="450" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <p>訂位專線:</p>
+                                <p>03-3221295</p>
+                                <p>手機:</p>
+                                <p>0983933335</p>
+                                <p>地址:</p>
+                                <p>桃園市龜山區南美街38號</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <!----section52結束---->
+
+
+</body>
+
+</html>

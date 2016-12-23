@@ -7,3 +7,15 @@ p:after {
 [class^="col-"] {
     border: 1px solid;
 }
+
+.img {
+    width: 100%;
+}
+
+
+/* link 設定*/
+
+a.hover {
+    text-decoration: none;
+    color: black;
+}

@@ -1,19 +1,28 @@
 /* Nav Module */
 
-nav li>ul {
-    display: none;
-}
-
 nav li:hover>ul {
     display: block;
 }
 
 nav ul {
+    margin: 0;
     padding: 0px;
 }
 
 nav li {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav li>ul>li {}
+nav ul li {
+    font-weight: bolder;
+    color: brown;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 178px;
+    list-style-type: none;
+    text-align: center;
+}
